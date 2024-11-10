@@ -1,0 +1,264 @@
+
+.navbar {
+    display: block;
+}
+
+.proceso_mate {
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.frase {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.video_container {
+    text-align: center;
+}
+
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+
+.imagen_producto{
+
+max-width: auto;
+text-align: center;
+
+
+}
+
+.nombre_producto{
+   font-family: sans-serif;
+   font-size: 200%;
+   
+
+}
+
+.descripcion_producto{
+
+    font-family: sans-serif;
+    font-size: medium;
+   
+}
+
+.precio_producto{
+    font-family: sans-serif;
+    color: cornflowerblue;
+    font-size: 200%;
+ 
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.productos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit:fill;
+   
+}
+
+.producto h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: cadetblue;
+}
+
+.producto p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.producto h4 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    color: cadetblue;
+}
+
+
+.resenas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.resena_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.resena {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resena img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.resena h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.resena p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.rating {
+    font-size: 1.2rem;
+    color: yellow;
+}
+
+
+.container_encuesta {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer{
+background-color: grey;
+display: block;
+}
+
+
+@media (max-width: 257px){
+
+.producto img{
+    display: none;
+}
+
+.resena img{
+
+display: none;
+}
+
+p{
+    font-size: small;
+}
+
+}
+
+@media (max-width: 600px) {
+    
+    body {
+      font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+   
+    .producto {
+        padding: 10px;
+    }
+    
+    .producto img {
+        width: 70px;
+        height: 70px;
+       
+    }
+    
+    .producto h3 {
+        font-size: 1rem;
+    }
+    
+    .producto p {
+        font-size: 0.9rem;
+    }
+    
+    .producto h4 {
+        font-size: 1.4rem;
+        margin: 10px 0;
+        color: cadetblue;
+    }
+    
+   
+    .resena {
+        padding: 10px;
+    }
+
+    .resena_grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+
+    .resena img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .resena h3 {
+        font-size: 1rem;
+    }
+
+    .resena p {
+        font-size: 0.9rem;
+    }
+
+    .container_encuesta{
+
+        font-size: 0.9rem;
+}
+
+}
+
+
+@media (max-width: 1024px) {
+    body {
+      font-size: 15px;
+    }
+  
+    .container {
+      width: 90%;
+    }
+  }
+
+
